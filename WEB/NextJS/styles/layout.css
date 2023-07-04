@@ -1,0 +1,152 @@
+.myNavBar {
+    background-color: #fff;
+    margin: 0 30px;
+}
+
+.navbar-nav-scroll {
+    --bs-scroll-height: "100px";
+}
+
+.navbarbg {
+    background-color: #f1f1f1;
+    padding: 10px 25px;
+}
+
+.myNavBar .navbar-brand,
+.Logo .navbar-brand {
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--headingColor);
+}
+
+.myNavBar .navbar-brand:hover {
+    color: var(--headingColor);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #363bbb;
+}
+
+.navbarButtons .btn,
+.primaryBtn {
+    padding: 0.3rem 0.75rem;
+    font-size: 14px;
+}
+
+.navbarButtons .login,
+.see-more .btn {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary-color);
+    background-color: #fff;
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.NavbarUserIcon {
+    width: 43px;
+    height: 43px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #f1f1f1;
+}
+
+.dropdown-toggle {
+    margin: auto 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navbarButtons .login .user {
+    margin-right: 6px;
+}
+
+.navbarButtons .btn-outline-success:hover,
+.searchBtn .search:hover,
+.see-more .btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    outline: none;
+}
+
+.navbarButtons .register,
+.publish-rideRow-col1 .btn,
+.primaryBtn {
+    color: white;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    outline: none;
+}
+
+.navbarButtons .register:hover,
+.publish-rideRow-col1 .btn:hover,
+.primaryBtn:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+}
+
+/* Footer */
+.Footer {
+    background-color: #fff;
+}
+
+.FooterRow {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.FooterRowCol ul li a {
+    color: var(--headingColor);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.FooterRowCol ul li {
+    cursor: pointer;
+}
+
+.FooterRowCol ul li a:hover {
+    text-decoration: underline;
+    color: var(--headingColor);
+}
+
+.FooterSocialCol h5 {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.FooterSocialCol svg {
+    font-size: 30px;
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.FooterSocialCol svg:hover {
+    color: #3b42ff;
+}
+
+.footerCopyright {
+    background-color: #dbdbdb;
+    text-align: center;
+    margin: 0;
+}
+
+.footerCopyright h6 {
+    font-weight: 600;
+    padding: 10px 0;
+    margin-bottom: 0;
+}

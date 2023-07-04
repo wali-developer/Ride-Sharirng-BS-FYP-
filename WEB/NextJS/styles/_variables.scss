@@ -1,0 +1,59 @@
+// Colors
+$primary-color: #4f56ff;
+$gray: #44444f;
+$black: #171725;
+$red: #ff7b85;
+$track-color: #468dff;
+$risk-color: #f8df72;
+$completed-color: #3dd598;
+$overdue-color: #ff7b85;
+$orange: #fc5a5a;
+$light-bg: #fafafb;
+
+// Sizes
+$base-size: 14px;
+
+// Screen Sizes
+$xxl-screen: 1400px;
+$xl-screen: 1200px;
+$lg-screen: 992px;
+$md-screen: 768px;
+$sm-screen: 576px;
+$xs-screen: 350px;
+
+// Media Queries
+@mixin xxl-screen() {
+  @media only screen and (max-width: $xxl-screen) {
+    @content;
+  }
+}
+@mixin xl-screen() {
+  @media only screen and (max-width: $xl-screen) {
+    @content;
+  }
+}
+@mixin lg-screen() {
+  @media only screen and (max-width: $lg-screen) {
+    @content;
+  }
+}
+@mixin md-screen() {
+  @media only screen and (max-width: $md-screen) {
+    @content;
+  }
+}
+@mixin sm-screen() {
+  @media only screen and (max-width: $sm-screen) {
+    @content;
+  }
+}
+@mixin xs-screen() {
+  @media only screen and (max-width: $xs-screen) {
+    @content;
+  }
+}
+@mixin custom-screen($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}

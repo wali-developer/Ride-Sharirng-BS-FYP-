@@ -1,0 +1,143 @@
+.userHeader {
+  // @include sm-screen() {
+  //   padding: 13px 20px;
+  //   height: 150px;
+  // }
+  // @include xs-screen() {
+  //   height: 150px;
+  // }
+  height: 70px;
+  padding: 13px 30px;
+  width: 100%;
+  box-shadow: 0px 1px 4px #0000001a;
+  position: relative;
+  .logoContainer {
+    // @include sm-screen() {
+    //   margin-left: 20px;
+    // }
+    .user_layout_logo {
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+  }
+  }
+  .notification-cont {
+    position: relative;
+    padding: 3px;
+
+    &::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: red;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+  .user_name {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .header-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  .toggler-btn {
+    // @include md-screen() {
+    //   display: block;
+    // }
+    display: none;
+    border: none;
+    box-shadow: 0px 5px 15px #44444f1a;
+    background: transparent;
+    padding: 6px 10px;
+    border-radius: 8px;
+    position: relative;
+    width: 50px;
+    height: 40px;
+    span {
+      width: 25px;
+      height: 2px;
+      background: $primary-color;
+      position: absolute;
+      right: 25%;
+    }
+    .line1 {
+      top: 30%;
+    }
+    .line2 {
+      top: 50%;
+    }
+    .line3 {
+      top: 70%;
+    }
+  }
+
+// user Sidebar
+#toggle-content {
+  // @include custom-screen(428px) {
+  //   top: 150px;
+  // }
+  transform: translateX(0) !important;
+  position: fixed;
+  width: 100%;
+  top: 70px;
+  background: #fff;
+}
+.userSidebar {
+  // @include md-screen() {
+  //   transform: translateX(-300px);
+  //   position: absolute;
+  //   top: 70px;
+  // }
+  // @include sm-screen() {
+  //   top: 150px !important;
+  // }
+  background: #fff;
+  width: 250px !important;
+  // height: 100vh;
+  box-shadow: 0px 1px 4px #0000001a;
+  padding: 30px 20px;
+  z-index: 9;
+  transition: all 500ms ease-in-out;
+  .sidebar-menu {
+    position: fixed;
+    height: 100vh;
+    ul {
+      list-style-type: none;
+      margin-left: -2rem;
+      li {
+        padding: 15px 0;
+        position: relative;
+        // border-bottom: 1px solid lightgray;
+        cursor: pointer;
+        span {
+          text-decoration: none;
+          color: #646464;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+      .sidebarMenuIcon {
+        width: 25px;
+        height: 25px;
+        margin: 0 7px;
+        color: gray
+    }
+    }
+  }
+}
+
+.dashbaord_main {
+  background-color: #f8f8f8;
+  flex: 1;
+  overflow: hidden
+}
+  
